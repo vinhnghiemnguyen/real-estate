@@ -59,7 +59,7 @@ const PriceChart: React.FC<PriceChartProps> = ({ data }) => {
   } : null;
 
   return (
-    <div className="mt-4 bg-white rounded border border-gray-200 p-2 shadow-sm select-none">
+    <div className="mt-1 bg-white rounded border border-gray-200 p-2 shadow-sm select-none">
       <h4 className="text-sm font-bold text-gray-600 mb-2 text-center">Price History (Million VND/m²)</h4>
       <div className="relative">
         <svg 
